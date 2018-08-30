@@ -611,7 +611,7 @@ public class TWMenu: NSObject, NSMenuDelegate, NSUserNotificationCenterDelegate 
         
         let pomsItem = NSMenuItem(
             title: "",
-            enabled: true,//false,
+            enabled: false,
             tag: kPomodorosCountMenuItemTag
         )
         
