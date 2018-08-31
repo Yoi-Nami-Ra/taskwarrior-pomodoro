@@ -597,7 +597,7 @@ public class TWMenu: NSObject, NSMenuDelegate, NSUserNotificationCenterDelegate 
             action: nil,
             keyEquivalent: ""
         )
-        activeItem.isEnabled = true//false
+        activeItem.isEnabled = false
         activeItem.tag = kActiveTaskMenuItemTag
         menu.addItem(activeItem)
         
